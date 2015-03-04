@@ -1,0 +1,234 @@
+@charset "UTF-8";
+body {
+font-family: "Open Sans",Arial,"Hiragino Sans GB","Microsoft YaHei","微软雅黑",STHeiti,"WenQuanYi Micro Hei",SimSun,sans-serif;
+font-size: 100%;
+line-height: 1.4;
+color: #444;
+background-image: url(../image/9500e9a1.main_bg.png);
+margin:0%;
+padding:0%;
+}
+#masthead {
+margin-top: 0%;
+text-align: center;
+}
+.back
+{
+   list-style: none;
+}
+.nizhi
+{
+border-radius: 50% / 50%;
+margin-right: auto;
+margin-left: auto;
+height: 10%;
+width: 10%;
+}
+.back li h1
+ {
+    text-align:left;
+    font-size:100%;
+    line-height :5%;
+     padding: 5px;
+     color: #333333;
+     opacity: 0;
+     -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+     transition: opacity 0.35s, transform 0.35s;
+     -webkit-transform: scale(0);
+     transform: scale(0);
+
+ }
+.back li:hover h1
+{
+ opacity: 1;
+ -webkit-transform: scale(1);
+ transform: scale(1);
+  }
+.back li:hover img
+{
+    opacity: 0.9;
+}
+
+#masthead .description {
+background-color: #000;
+padding: 0.31em 1.1em;
+display: inline-block;
+color: #fff;
+font-size: 1.125em;
+text-transform: uppercase;
+border-radius: 0.19em;
+border-left: 0.19em solid #ff4136;
+border-right: 0.19em solid #0074d9;
+}
+#tittle {
+padding-right:50%;
+}
+#main{
+max-width:60%;
+margin: 0% auto;
+padding: 5% 5%;
+background: #fff;
+position: relative;
+-moz-border-radius:2em; -webkit-border-radius:2em; border-radius:2em;
+}
+.bored
+{
+    max-width: 100%;
+    border-left:0.19em #333 solid;
+
+}
+.entry-title{
+color: #111;
+font-size: 1.125em;
+font-weight: 400;
+text-transform: uppercase;
+line-height: 1;
+margin-top: 0;
+padding-left: 5%;
+}
+.sub-title{
+    color: #aaa;
+font-size: 0.5em;
+padding-left:0%;
+}
+#ziti{
+    margin: 3% auto;
+padding: 2% 3%;
+background: #fbfbfb;
+border: 0.1em solid #f3f3f3;
+border-radius: 0.5em;
+position: relative;
+border-width: 0 1px 1px;
+border-color: #fff #f3f3f3 #e8e8e8;
+line-height: 1.6em;
+}
+h3
+{
+font-size: 1.17em;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+font-weight: bold;
+}
+
+.list
+{
+    margin: 5% auto;
+padding-left: 3%;
+list-style: none;
+}
+.item
+{
+    position: relative;
+cursor: pointer;
+margin-bottom: 0.625em;
+padding-bottom: 0.625em;
+}
+.list-item-little
+{
+    color: #111;
+font-weight: 400;
+font-size: 1em;
+}
+.position-title
+{
+font-size: 0.875em;
+color: #666;
+}
+.date-title
+{
+    color: #aaa;
+font-size: 0.75em;
+}
+ .item:hover .list-item-little{
+color: #0074d9;
+}
+.list.item.p
+{
+color: #555;
+margin: 10px 0;
+line-height: 1.8;
+font-size: 13px;
+}
+.entry-title1{
+color: #111;
+font-size: 1.125em;
+font-weight: 400;
+text-transform: uppercase;
+line-height: 1;
+padding-left: 5%;
+}
+#main.gallery {
+padding: 0 0 0 10px;
+list-style: none;
+font-size: 0;
+letter-spacing: -.31em;
+word-spacing: -.43em;
+}
+#main .gallery .gallery-item {
+letter-spacing: normal;
+word-spacing: normal;
+vertical-align: top;
+display: inline-block;
+margin: 3% 10% 5% 11%;
+}
+#main .gallery .gallery-item a {
+position: relative;
+padding:0.18em;
+border: 0.31em solid #ddd;
+display: block;
+line-height: 0;
+text-decoration: none;
+}
+#main .gallery .gallery-item a img {
+width: 11em;
+}
+#main.gallery .gallery-item a:after {
+-webkit-transition-delay: 300ms;
+transition: all ease 300ms;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: transparent;
+content: '\e80c';
+font-family: resume-font;
+font-style: normal;
+font-weight: 400;
+speak: none;
+line-height: 135px;
+text-align: center;
+color: #fff;
+font-size: 32px;
+display: block;
+visibility: hidden;
+}
+#download {
+text-align: center;
+}
+#download .download {
+font-size: 18px;
+text-decoration: none;
+color:#aaa;
+border-bottom: 1px dotted #ddd;
+}
+ #download:hover .download{
+color:#8CB3DF;
+}
+#mastfoot {
+font-weight: 700;
+font-size: 0.75em;
+text-align: center;
+text-transform: uppercase;
+color: #aaa;
+margin: 0% 3%;
+text-shadow: 1px 1px 1px #fff;
+}
+.fig
+{
+position:absolute;
+  left:10px;
+  top:15px
+}
